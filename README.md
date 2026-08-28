@@ -14,9 +14,9 @@ show_toc: true
 ````stepper
 # Prérequis
 
-## 1. Avoir installé MySQL
+## 1. Avoir vu les ressources suivantes
 
-Assure-toi d'avoir installé et configuré MySQL en suivant la ressource [MySQL 00 - Installer MySQL](https://simplonco.github.io/dev-web-mysql-00-installer-mysql/).
+- [MySQL 00 - Installer MySQL](https://simplonco.github.io/dev-web-mysql-00-installer-mysql/)
 
 ## 2. Avoir installé la base de données
 

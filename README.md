@@ -1,5 +1,5 @@
 ---
-title: "01 - Introduction aux bases de données relationnelles"
+title: "MySQL 01 - Introduction aux bases de données relationnelles"
 description: "Comprendre les bases de données relationnelles et écrire tes premières requêtes SQL"
 show_toc: true
 ---

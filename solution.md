@@ -1,8 +1,8 @@
 ---
-title: "01 - Introduction aux bases de données relationnelles - Solution"
+title: "MySQL 01 - Introduction aux bases de données relationnelles - Solution"
 description: "Comprendre les bases de données relationnelles et écrire tes premières requêtes SQL"
 show_toc: true
-parent: 01 - Introduction aux bases de données relationnelles
+parent: MySQL 01 - Introduction aux bases de données relationnelles
 ---
 
 ## Créer la base de données

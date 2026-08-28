@@ -1,6 +1,6 @@
 remote_theme: simplonco/simplonline-ressources-jekyll-theme
 
-title: "01 - Introduction aux bases de données relationnelles"
+title: "MySQL 01 - Introduction aux bases de données relationnelles"
 description: "Comprendre les bases de données relationnelles et écrire tes premières requêtes SQL"
 github_org: simplonco
 lang: fr

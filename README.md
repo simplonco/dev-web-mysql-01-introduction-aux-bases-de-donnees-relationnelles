@@ -214,13 +214,9 @@ Crée une table `school`, contenant les champs :
 
 Exécute les commandes `SHOW TABLES` et fais un `DESCRIBE` sur les tables `wizard` et `school`.
 
-Dans ta console, copie les sorties des commandes `SHOW TABLES` et `DESCRIBE` et colle le texte en solution.
 
 À toi de jouer, jeune sorcier !
 
-### Critères de validation
+---
 
-* La commande SHOW TABLES montre que la base de données `wild_db_quest` existe et contient les deux tables `wizard` et `school`.
-* La table `wizard` contient un champ `is_muggle` de type BOOL ou TINYINT(1) et NOT NULL.
-* La table `school` contient les champs `id`, `name`, `capacity` et `country`, respectivement de type INT, VARCHAR(100), INT et VARCHAR(255).
-* Le champ `id` de la table `school` est **auto-incrémenté** et est une **clé primaire**.
+[Voir la solution](solution){: .alert-info}

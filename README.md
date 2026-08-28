@@ -11,6 +11,10 @@ show_toc: true
 * Créer ta première base de données
 * Importer des données
 
+## Pré-requis
+
+- [MySQL 00 - Installer MySQL](https://simplonco.github.io/dev-web-mysql-00-installer-mysql/)
+
 ## Introduction
 
 Bonjour, jeune sorcier. Tu vas apprendre ici de nouveaux _sortilèges_ qui te permettront de créer, gérer et manipuler des données, autant de choses qu’il est indispensable de savoir faire dans le monde magique du développement web (et dans bien d'autres domaines).

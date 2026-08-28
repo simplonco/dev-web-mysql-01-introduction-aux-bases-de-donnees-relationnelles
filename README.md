@@ -169,8 +169,6 @@ et quelques [contraintes utiles](https://www.w3schools.com/sql/sql_primarykey.as
 [https://sql.sh/cours/alter-table](https://sql.sh/cours/alter-table)
 {:.alert-info}
 
-![](images/animation-sql.gif)
-
 ##  Challenge
 
 ````stepper

@@ -11,9 +11,41 @@ show_toc: true
 * Créer ta première base de données
 * Importer des données
 
-## Pré-requis
+````stepper
+# Prérequis
 
-- [MySQL 00 - Installer MySQL](https://simplonco.github.io/dev-web-mysql-00-installer-mysql/)
+## 1. Avoir installé MySQL
+
+Assure-toi d'avoir installé et configuré MySQL en suivant la ressource [MySQL 00 - Installer MySQL](https://simplonco.github.io/dev-web-mysql-00-installer-mysql/).
+
+## 2. Avoir installé la base de données
+
+Exécute les requêtes suivantes dans ton terminal MySQL pour créer la base `wild_db_quest` :
+
+```sql
+CREATE DATABASE IF NOT EXISTS wild_db_quest;
+USE wild_db_quest;
+
+CREATE TABLE IF NOT EXISTS wizard (
+  id INT NOT NULL AUTO_INCREMENT,
+  firstname VARCHAR(100) NOT NULL,
+  lastname VARCHAR(100) NOT NULL,
+  birthday DATE DEFAULT NULL,
+  birth_place VARCHAR(255) DEFAULT NULL,
+  biography TEXT DEFAULT NULL,
+  is_muggle BOOLEAN DEFAULT 0,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS school (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  country VARCHAR(100) NOT NULL,
+  capacity INT,
+  PRIMARY KEY (id)
+);
+```
+````
 
 ## Introduction
 
